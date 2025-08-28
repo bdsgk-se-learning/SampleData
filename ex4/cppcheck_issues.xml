@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.13.0"/>
+    <errors>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: x" verbose="Uninitialized variable: x" cwe="457" file0="foo.cpp">
+            <location file="foo.cpp" line="3" column="12"/>
+            <symbol>x</symbol>
+        </error>
+    </errors>
+</results>
