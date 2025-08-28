@@ -2,3 +2,6 @@
 *.db
 *.Identifier
 .bridge
+debug.sock
+.vscode/
+host_uuid
