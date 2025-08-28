@@ -1,3 +1,4 @@
 .codesight/
 *.db
 *.Identifier
+.bridge
