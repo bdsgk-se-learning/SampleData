@@ -1,0 +1,19 @@
+{
+	"data": {
+		"polaris": {
+			"application": {
+				"name": "アプリケーション名"
+			},
+			"project": {
+				"name": "プロジェクト名"
+			},
+			"branch": {
+				"name": "main"
+			},
+			"assessment": {
+				"types": ["SAST", "SCA"]
+			},
+			"serverUrl": "https://poc.polaris.blackduck.com"
+		}
+	}
+}
