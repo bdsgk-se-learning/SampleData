@@ -1,0 +1,38 @@
+{
+  "definitions": {},
+  "info": {
+    "description": "powered by Flasgger",
+    "termsOfService": "/tos",
+    "title": "A swagger API",
+    "version": "0.0.1"
+  },
+  "paths": {
+    "/api/users": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "\u30e6\u30fc\u30b6\u30fc\u4e00\u89a7\u3092\u8fd4\u3057\u307e\u3059",
+            "schema": {
+              "items": {
+                "properties": {
+                  "id": {
+                    "description": "\u30e6\u30fc\u30b6\u30fcID",
+                    "type": "integer"
+                  },
+                  "username": {
+                    "description": "\u30e6\u30fc\u30b6\u30fc\u540d",
+                    "type": "string"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "array"
+            }
+          }
+        },
+        "summary": "\u30e6\u30fc\u30b6\u30fc\u4e00\u89a7\u3092\u53d6\u5f97\u3059\u308bAPI"
+      }
+    }
+  },
+  "swagger": "2.0"
+}
