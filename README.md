@@ -1,4 +1,5 @@
-# polaris-hands-on
+# SampleData
+
 このリポジトリでは、Polaris Hands-onセミナーで使用する演習用ファイルを配布します。
 セミナーの参加前に、ローカルにこのリポジトリをクローンしてください。
 
